@@ -1,0 +1,10 @@
+Su objetivo inicial era el desarrollo de software para dispositivos electrónicos, pero se expandió al desarrollo de aplicaciones 
+    multiplataforma, empresariales y web.
+
+¿Qué cambios introdujo a la Web?
+    - Introducción de Applets, pequeñas aplicaciones embebidas en páginas web (ya en desuso).
+    - Creación de Servlets y JSP, que mejoraron la programación del lado del servidor.
+    - Fomentó aplicaciones empresariales robustas con Java EE (Jakarta EE).
+¿Java es dependiente de la plataforma donde se ejecuta? ¿Por qué?
+    No, Java es independiente de la plataforma porque usa la Java Virtual Machine (JVM). El código fuente se compila a bytecode, que puede 
+    ejecutarse en cualquier sistema con una JVM adecuada. Este concepto se resume en "Write Once, Run Anywhere" (WORA).

@@ -1,0 +1,18 @@
+Java
+    Tipos de Expresiones en Java
+    Aritméticas: a + b, x * y % z.
+    Lógicas: &&, ||, !.
+    Comparativas: x == y, a > b.
+    Expresiones lambda (desde Java 8): (x, y) -> x + y.
+    Expresiones con objetos: new Persona("Juan").
+
+Facilidades para la Organización del Programa
+    Programación Orientada a Objetos (POO): Todo se organiza en clases y objetos.
+    Paquetes (package): Permite organizar el código en módulos reutilizables.
+    Manejo de excepciones (try-catch): Controla errores de forma estructurada.
+    Interfaces y abstracción: Facilita la modularidad y extensibilidad del código.
+Atributos de Java
+    ✅ Ortogonalidad: Buena consistencia en sus reglas de tipo y manejo de memoria.
+    ❌ Simplicidad: requiere más código para lograr distintos comportamientos.
+    ✅ Expresividad: Soporta múltiples paradigmas y expresiones avanzadas.
+    ✅ Legibilidad: Bien estructurado, aunque puede ser más difícil de leer que otros lenguajes.

@@ -1,0 +1,12 @@
+Python 
+    ✅ Ortogonalidad: En Python, las características del lenguaje funcionan de manera consistente sin efectos secundarios inesperados. 
+        Por ejemplo, los tipos de datos y las estructuras de control pueden combinarse de forma intuitiva.
+
+    ✅ Simplicidad: Su sintaxis es clara y concisa, evitando símbolos innecesarios (por ejemplo, no requiere {} para delimitar bloques 
+        de código, sino que usa indentación).
+
+    ✅ Expresividad: Con pocas líneas de código, Python puede realizar tareas complejas. 
+        Por ejemplo, una sola línea puede leer un archivo o procesar una lista con una list comprehension.
+
+    ✅ Legibilidad: Su diseño fomenta el uso de nombres descriptivos y evita construcciones confusas, siguiendo la filosofía 
+        "el código debe leerse como inglés natural".

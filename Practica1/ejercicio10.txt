@@ -1,0 +1,7 @@
+Python 
+    resultado = (5 + 3) * 2  # Expresión aritmética
+Ruby
+    resultado = "Hola " + "Mundo"  # Expresión de concatenación
+PHP 
+    $suma = 10 + 20;  // Expresión aritmética
+

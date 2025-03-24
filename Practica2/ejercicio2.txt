@@ -1,0 +1,13 @@
+La sintaxis es importante para los lenguajes ya que establece reglas que definen como deben combinarse las componentes basicas,
+llamadas "words", para formar sentencias y programas. Ademas, contamplan soluciones a caracteristicas tales como: 
+    - Legibilidad. 
+    - Verificabilidad. 
+    - Traduccion. 
+    - Falta de ambiguedad. 
+
+Los elementos que componen la sintaxis son:
+    - Alfabeto o conjunto de caracteres.
+    - Identificadores.
+    - Operadores.
+    - Comentarios y usos de blancos. 
+    - Palabras claves y reservadas. 

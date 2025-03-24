@@ -1,0 +1,21 @@
+Orígenes y Creación (1991 - 1995)
+Java fue desarrollado por James Gosling y un equipo de ingenieros de Sun Microsystems en 1991, dentro de un proyecto llamado Green Project. Su objetivo inicial era crear un lenguaje para dispositivos electrónicos inteligentes.
+
+El lenguaje se llamó inicialmente Oak, pero en 1995 fue renombrado como Java.
+
+Lanzamiento y Popularización (1995 - 2000)
+En 1995, Java se presentó oficialmente con la promesa de "Write Once, Run Anywhere" (Escríbelo una vez, ejecútalo en cualquier lugar), gracias a la Máquina Virtual de Java (JVM).
+
+Sun Microsystems lanzó Java 1.0, incluyendo:
+
+Applets, pequeños programas ejecutables en navegadores web.
+Bibliotecas estándar para redes, seguridad y gráficos.
+Java rápidamente se convirtió en un lenguaje popular para aplicaciones web, empresariales y móviles.
+
+Expansión y Evolución (2000 - 2010)
+2004: Java 5 introduce genéricos, anotaciones y la API de concurrencia.
+2006: Java se vuelve Open Source, permitiendo el desarrollo comunitario.
+2009: Oracle adquiere Sun Microsystems, tomando el control de Java.
+Java en la Actualidad (2011 - Presente)
+Se han lanzado versiones cada 6 meses con mejoras en rendimiento, seguridad y sintaxis.
+Java es fundamental en aplicaciones empresariales (Spring), desarrollo móvil (Android) y sistemas de alto rendimiento.

@@ -1,0 +1,3 @@
+Las palabras reservadas son palabras que tienen un significado y no pueden ser utilizadas para otro propósito. En cambio, 
+en la definicion de la gramatica las palabras reservadas suelen ser equivalentes a los simbolos terminales de la gramatica. 
+Por ejemplo en java algunas palabras reservadas son : if - else - switch - case - while - return. 

@@ -1,0 +1,16 @@
+	Paradigma	Programas típicos
+Python	
+    Paradigma:
+        Multiparadigma (Orientado a objetos, imperativo, funcional)	
+    Programas:
+        Scripts, aplicaciones web, inteligencia artificial, análisis de datos.
+Ruby	
+    Paradigma:  
+        Orientado a objetos, multiparadigma	
+    Programas: 
+        Desarrollo web (Ruby on Rails), automatización, aplicaciones empresariales.
+PHP	
+    Paradigma: 
+        Imperativo, orientado a objetos.
+    Programas:
+        Aplicaciones web dinámicas, sistemas de gestión de contenido (CMS como WordPress)

@@ -1,0 +1,5 @@
+Java está influenciado por:
+
+C y C++ → Sintaxis estructurada y orientación a objetos.
+Smalltalk → Conceptos avanzados de POO.
+Objective-C → Manejo de mensajes en POO.

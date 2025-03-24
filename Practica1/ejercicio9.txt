@@ -1,0 +1,21 @@
+Estructura de programas C:
+    #include <stdio.h>  // Librerías
+
+    // Prototipos de funciones (opcional)
+    int suma(int, int);
+
+    // Función principal
+    int main() {
+        int resultado = suma(5, 3);
+        printf("Resultado: %d\n", resultado);
+        return 0;
+    }
+
+    // Definición de funciones
+    int suma(int a, int b) {
+        return a + b;
+    }
+
+Existe anidamiento de funciones en C?
+    No, en C no se permite anidar funciones dentro de otras. Todas las funciones deben definirse de manera independiente. Sin embargo, se 
+    pueden usar punteros a funciones para lograr cierto grado de modularidad.

@@ -1,0 +1,65 @@
+1951 - 1955: Lenguajes tipo Assembly
+    Características: Programación de bajo nivel, instrucciones específicas para la arquitectura, manejo directo de registros y memoria.
+    Lenguajes: Ensambladores específicos para cada procesador (IBM 701, UNIVAC, etc.).
+
+1956 - 1960: FORTRAN, ALGOL 58, ALGOL 60, LISP
+    FORTRAN (1957): Primer lenguaje de alto nivel, introducción de estructuras de control como bucles y condicionales, soporte 
+        para operaciones matemáticas complejas.
+    ALGOL 58 y ALGOL 60 (1958, 1960): Introducción de estructuras de bloques, recursión, notación matemática clara.
+    LISP (1958): Introducción del procesamiento simbólico, listas como estructura de datos fundamental, recolección de basura (garbage 
+        collection).
+
+1961 - 1965: COBOL, ALGOL 60, SNOBOL, JOVIAL
+    COBOL (1960): Lenguaje orientado a negocios, sintaxis cercana al lenguaje natural, manipulación de archivos estructurados.
+    ALGOL 60: Introducción de estructuras de datos avanzadas y mejor manejo de memoria.
+    SNOBOL (1962): Introducción de manipulación avanzada de cadenas de texto.
+    JOVIAL (1963): Extensión de ALGOL 60 con estructuras para aplicaciones militares y aeronáuticas.
+
+1966 - 1970: APL, FORTRAN 66, BASIC, PL/I, SIMULA 67, ALGOL-W
+    APL (1966): Uso de operadores matemáticos especiales, programación concisa y funcional.
+    FORTRAN 66 (1966): Estandarización de FORTRAN con mejor manejo de estructuras de control.
+    BASIC (1964): Lenguaje orientado a principiantes, sintaxis sencilla y facilidad de uso.
+    PL/I (1966): Combinación de características de FORTRAN y COBOL, manipulación de archivos y concurrencia.
+    SIMULA 67 (1967): Introducción de la programación orientada a objetos (POO), clases y objetos.
+    ALGOL-W (1966): Precursor de Pascal, introducción de tipos de datos estructurados.
+
+1971 - 1975: Pascal, C, Scheme, Prolog
+    Pascal (1970): Estructuras de datos avanzadas, programación estructurada.
+    C (1972): Tipos de datos flexibles, punteros, manipulación de memoria de bajo nivel.
+    Scheme (1975): Introducción de programación funcional pura y cierres (closures).
+    Prolog (1972): Introducción de la programación lógica y la inferencia automática.
+
+1976 - 1980: Smalltalk, Ada, FORTRAN 77, ML
+    Smalltalk (1980): POO pura con soporte para mensajes entre objetos.
+    Ada (1980): Manejo de concurrencia y seguridad en tiempo de compilación.
+    FORTRAN 77 (1977): Mejoras en estructuras de control y manipulación de caracteres.
+    ML (1973): Tipado fuerte e inferencia de tipos.
+
+1981 - 1985: Smalltalk 80, Turbo Pascal, Postscript
+    Smalltalk 80 (1980): Entorno de desarrollo interactivo con GUI, evolución de la POO.
+    Turbo Pascal (1983): Compilación rápida, entorno de desarrollo integrado (IDE).
+    Postscript (1984): Lenguaje de descripción de páginas para impresión gráfica.
+
+1986 - 1990: FORTRAN 90, C++, S
+    FORTRAN 90 (1990): Soporte para programación modular y arrays dinámicos.
+    C++ (1983): Extensión de C con POO, sobrecarga de operadores.
+    SML (1976): Lenguaje para análisis estadístico, precursor de R.
+
+1991 - 1995: TCL, Perl, HTML
+    TCL (Tool Command Language) - 1988 (popularizado en los 90s)
+        Lenguaje de scripting embebible: Diseñado para ser integrado en otras aplicaciones como herramienta de automatización.
+        Manejo sencillo de cadenas y expresiones regulares.
+    Perl (1987, con mejoras en 1994 y 1995)
+        Manejo avanzado de expresiones regulares.
+        Automatización de tareas de administración de sistemas.
+        Programación flexible y multiparadigma.
+    HTML (HyperText Markup Language) - 1993
+        Lenguaje de marcado para la web: Introducción de etiquetas <html>, <head>, <body> para estructurar documentos.
+        Hipervínculos: Uso del <a href="..."> para conectar páginas a través de enlaces.
+        Listas, imágenes y tablas: Soporte para elementos visuales básicos en la web.
+        Base para la creación de la World Wide Web: Facilita la visualización de contenido en navegadores.
+
+1996 - 2000: Java, JavaScript, XML
+    Java: Código independiente de la plataforma, POO, recolección de basura, multithreading y seguridad mejorada.
+    JavaScript: Interactividad en la web, manipulación del DOM, asincronía y eventos.
+    XML: Formato de datos estructurado y extensible para intercambio de información.

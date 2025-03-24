@@ -1,0 +1,23 @@
+✅ Python
+    Tipado dinámico y fuerte.
+    Soporta programación funcional y POO.
+    Código limpio e indentado.
+
+✅ Ruby
+    Todo es un objeto.
+    Lenguaje elegante y flexible.
+    Gran uso en desarrollo web.
+
+✅ PHP
+    Diseñado para la web, embebible en HTML.
+    Tipado dinámico.
+    Compatible con bases de datos como MySQL.
+
+✅ Gobstone
+    Lenguaje educativo para aprender algoritmos.
+    Enfocado en programación visual.
+
+✅ Processing
+    Usado para arte digital e interacción.
+    Basado en Java.
+    Facilita la programación gráfica.

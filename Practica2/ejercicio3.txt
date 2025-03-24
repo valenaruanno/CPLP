@@ -1,0 +1,2 @@
+Las reglas lexicograficas sirven para formar las "Words" a partir de caracteres del alfabeto.
+Las reglas sintacticas definen como formar a partir de esas palabras las "expresiones" y "Sentencias".

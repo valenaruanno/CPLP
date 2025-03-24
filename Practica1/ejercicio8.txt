@@ -1,0 +1,7 @@
+¿Qué son los applets?
+Son programas escritos en Java que se ejecutaban en navegadores web mediante la JVM. Actualmente están en desuso por razones de seguridad
+     y compatibilidad.
+
+¿Qué son los servlets?
+Son programas Java que se ejecutan en el servidor para manejar peticiones HTTP y generar respuestas dinámicas en páginas web. Han sido la
+     base para tecnologías como JSP y Spring MVC.

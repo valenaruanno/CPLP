@@ -1,0 +1,22 @@
+JavaScript
+    Paradigma: Multiparadigma (imperativo, orientado a objetos, funcional).
+    Tipo de lenguaje: Interpretado, de tipado dinámico y débil.
+
+    Características importantes de JavaScript
+        Tipado dinámico y débil:
+            let x = 10;  
+            x = "Hola"; // Cambia de número a string
+        Manejo de excepciones:
+            try {
+                throw new Error("Ocurrió un error");
+            } catch (e) {
+                console.log(e.message);
+            }
+        Uso de variables con var, let y const:
+            let nombre = "Juan";
+            const PI = 3.1416;
+        Asincronismo con setTimeout y Promises: 
+            setTimeout(() => console.log("Ejecutado después de 2 segundos"), 2000);
+
+
+

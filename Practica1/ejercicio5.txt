@@ -1,0 +1,15 @@
+    Tipos de Datos en Ada
+        Ada es un lenguaje fuertemente tipado, lo que significa que evita errores por uso incorrecto de tipos de datos. Sus principales tipos son:
+
+        Escalares: Integer, Float, Boolean, Character.
+        Compuestos: Array, Record, Access (punteros seguros).
+        Enumeraciones: type Dia is (Lunes, Martes, Miércoles);.
+        Subtipos: Permiten restringir rangos de valores, mejorando la seguridad.
+    Tipos Abstractos de Datos – Paquetes
+        Ada usa paquetes (Packages) para organizar y encapsular datos y funciones, similar a los módulos en otros lenguajes.
+    Estructuras de Datos en Ada
+        Arrays: Pueden ser de tamaño dinámico o fijo.
+        Records (estructuras): Similar a struct en C.
+        Listas y colas: Implementadas mediante Access Types (punteros seguros).
+    Manejo de Excepciones
+        Ada maneja errores de forma estructurada con begin ... exception.
