@@ -1,0 +1,17 @@
+La ligadura es el momento en que un atributo se asocia con un 
+    valor determinado. La ligadura es un concepto central en la 
+    definicion de la semantica ya que determina como y cuando 
+    se resuelven las referencias a las variables o funciones.
+
+Ligadura estatica: Se establece antes de la ejecucion y no se 
+    puede modificar. 
+    Los momentos donde se puede realizar la ligadura son:
+        - Definicion del lenguaje.
+        - Implementacion del lenguaje.
+        Compilacion / traduccion.
+
+
+Ligadura dinamica: Se establece durante la ejecucion y puede
+    modificarse durante la ejecucion de acuerdo a alguna regla 
+    especifica del lenguaje a excepcion de las constantes que 
+    no pueden ser modificadas. 

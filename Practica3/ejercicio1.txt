@@ -1,0 +1,4 @@
+La semantica describe el significado de los simbolos, palabras y frases 
+    utilizados en un lenguaje ya sea natural o lenguaje informatico que
+    sintacticamente valido, para luego poder darle significado a una
+    construccion del lenguaje. 

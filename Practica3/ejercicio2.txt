@@ -1,0 +1,24 @@
+a) Compilar un programa es el proceso de transformar el codigo
+    escrito en un lenguaje de alto nivel en un codigo de 
+    maquina que pueda ser entendido y ejecutado por una PC.
+
+
+b) Los pasos necesarios para compilar un programa son:
+    - Etapa de analisis: 
+        - Analisis lexico: hace un analisis a nivel de palabra.
+        - Sintactico: hace un analisis a nivel de sentencis /
+            estructuras. 
+        - Semantico: procesa las estructuras sintacticas y agrega
+            otro tipo de informacion implicita. 
+    - Etapa de sintesis: 
+        - Optimizacion del codigo. 
+        - Generacion del codigo final.
+
+
+c) La semantica interviene en el paso 1 de etapa de analisis y
+    es importante ya que realiza la comprobacion de tipos, 
+    agrega a la tabla de simbolos los descriptores de tipos, 
+    realiza comprobaciones de duplicado y problemas de tipos, y
+    la comprobacion de nombres. La semantica es importante 
+    ademas debido a que es el nexo entre la etapa inicial y 
+    final del compilador. 

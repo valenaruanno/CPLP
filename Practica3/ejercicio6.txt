@@ -1,0 +1,15 @@
+Self: Representa el receptor del mensaje en el contexto
+    actual. 
+    - Dentro de una clase representa la propia clase.
+    - Dentro de un metodo representa a la instancia del objeto
+        sobre la que se esta ejectando el metodo. 
+    - Dentro de un metodo de clase: representa la clase en la
+        que esta definido el metodo. 
+    - En el ambito global: representa el objeto main.
+
+    Es utilizada para referenciar el objeto acutal dentro de un
+    metodo de instancia. 
+
+
+Nil: representa la ausencia de un valor u objeto. Es un objeto
+    de la clase NilClass. 

@@ -1,0 +1,16 @@
+- No declara el conjunto de los terminales ni el conjunto 
+    inicial.
+- Las producciones de <otro>, <operacion>, <llamada_a_funcion>,
+    <numero>, <sentencia_asignacion>, <sentencia_if>,
+    <sentencia_while>, <sentencia_switch> no las define.
+- La forma de definicion de la produccion <sentencia_for> esta
+    mal. No utiliza bien la gramatica EBNF.
+- En la produccion <variable>, <bloque> y <sentencia> no 
+    utiliza los parentecis para utilizar el operador "|".
+- La definicion de la produccion <bloque> se podria simplificar 
+    haciendo uso correcto de la gramatica EBNF.
+    Ej: <bloque> ::= <sentencia> {<sentencia>}*. 
+ 
+
+
+ CONSULTAR SENTENCIA_FOR

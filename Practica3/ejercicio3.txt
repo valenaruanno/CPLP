@@ -1,0 +1,25 @@
+No, no es lo mismo. Al interpretarlo se realiza la traduccion en
+momento de ejecucion y el programa fuente generado sera publico,
+en cambio, si lo compilo la traduccion se realiza antes de la 
+ejecucion y el programa fuente generado no sera publico. 
+Interprete: 
+    - Ventajas: 
+        - Ocupa menos espacio en memoria.
+        - Permite una deteccion facil de errores y una 
+            resolucion mas rapida de los mismos.
+    - Desventajas: 
+        - No recorre todo el codigo. Sigue el orden lógico.
+        - Puede afectar la velocidad del proceso.
+
+COmpilador:
+    - Ventajas:
+        - Recorre todo el codigo. Sigue el orden físico. 
+        - No repite lazos. 
+        - Detecta mas errores ya que recorre todo el codigo.
+        - Deja el programa listo para ser ejecutado post 
+            compilacion. 
+    - Desventajas: 
+        - Ocupa mucho espacio en memoria.
+        - Se pierde la referencia entre el codigo fuente y el 
+            codigo objeto por lo que es casi imposible encontrar 
+            el error. 

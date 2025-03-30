@@ -1,0 +1,34 @@
+Break:
+    - PHP: Se utiliza para interrumpir la ejecucion de un bucle
+        o switch en el que se encuentra y puede recibir un 
+        argumento numerico para salir de multiples niveles de 
+        bucles anidados.
+        Caracteristicas:
+            - Se utiliza en for, switch, while y do-while.
+            - Permite romper multiples niveles de anidacion.
+
+
+    - Ruby: Se utiliza para salir inmediatamente de un bucle y
+        devolver un valor. 
+        Caracteristicas:
+            - Se utiliza en while, until, for y bloques como 
+                each, map. 
+            - Opcionalmente devuelve un valor.
+    
+
+    - JavaScript: Termina inmediatamente la ejecucion del bucle
+        o switch. 
+        Caracteristicas: 
+            - Se utiliza en while, for, do-while, switch. 
+            - Permite salir de multiples niveles de bucles
+                usando etiquetas.
+            - No devuelve un valor. 
+            - No puede recibir argumentos. 
+    
+
+    - C: Interrumpe la ejecucion del bucle o switch en el que 
+        se encuentra. 
+        Caracteristicas:
+            - Se utiliza en while, for, do-while y switch.
+            - Interrumpe solo el bucle o switch mas interno.
+            - No permite valores ni etiquetas de retorno.

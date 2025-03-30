@@ -1,0 +1,55 @@
+Ejercicio 10
+
+a_
+
+G = (N, T, S, P)
+
+N = (<expresion>, <elemento>,  <identificador>, <secuencia>,<letra>, <num> ,<digito>)
+
+T = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, …, z, A, …, Z}
+
+S = {<expresion>}
+
+P = { <expresion> ::= <elemento>{(+| - | * | /) <elemento>}+
+
+<elemento> ::= (<identificador> | <num>)
+
+<identificador> ::= <letra>{(<letra> | <digito>)}*
+
+<letra> ::= (a| … | Z)
+
+<num> ::= <digito>{<digito>}*     //{<digito>}+
+
+<digito> ::= (0 | … | 9)
+
+}
+
+b_
+
+G = (N, T, S, P)
+
+N = (<expresion>, <termino>, <elemento>,  <identificador>, <secuencia>,<letra>, <num> ,<digito>)
+
+T = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, …, z, A, …, Z}
+
+S = {<expresion>}
+
+P = { <expresion> ::= <termino>{(+| -) <termino>}*
+
+<termino> ::= <elemento> {(* | /) <elemento>}*       //<elemento> [(* | /) <elemento>]
+
+<elemento> ::= (<identificador> | <num>)
+
+<identificador> ::= <letra>{(<letra> | <digito>)}*
+
+<letra> ::= (a| … | Z)
+
+<num> ::= <digito>{<digito>}*
+
+<digito> ::= (0 | … | 9)
+
+}
+
+c_ Lo que hicimos fue agregar una produccion mas llamada termino, que multiplicaba y dividia dos elementos. Luego usamos este termino en expresion para sumar y restarlos. De esta manera, primero, se hacen las operaciones de multiplicacion y division, y despues las de suma y resta.
+
+11_ Le falta la definicion completa de gramatica (la T y la S).

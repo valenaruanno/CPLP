@@ -1,0 +1,7 @@
+En javaScript null y undefined representan la ausencia de valor
+pero tienen diferencias en su significado:
+    Null: representa la ausencia INTENCIONAL de valor (es un 
+        valor asignable). 
+    Undefined: representa que algo no esta definido o no tiene 
+        un valor asignado. Ademas, puede ser utilizado como 
+        el retorno de funciones que no devuelven nada.
