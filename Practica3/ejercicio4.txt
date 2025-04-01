@@ -4,8 +4,11 @@ semantico se produce cuando un programa tiene una estructura
 sintacticamente correcta pero su significado o logica es 
 incorrecta. 
 
-Ej: "mi perro canta una manta" es sintacticamente correcto pero
-semanticamente incorrecto. 
+Ej: var 
+        5: Integer;
+    
+    
+    es sintacticamente correcto pero semanticamente incorrecto. 
 
 Ej: int x = 5
     if (x > 3) {
