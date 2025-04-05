@@ -1,0 +1,13 @@
+a) Una variable estática es aquella cuyo espacio de memoria se asigna una única vez y 
+    persiste durante toda la ejecución del programa. Su valor puede ser modificado, pero 
+    no se pierde hasta que finaliza el programa.
+
+b) Una variable automática es aquella que se crea al entrar en un bloque de código y se 
+    destruye al salir del mismo.
+
+c) Una variable dinámica es aquella cuyo espacio de memoria se asigna y libera manualmente
+    durante la ejecución del programa, generalmente en el heap. Se usa cuando no se 
+    conoce de antemano cuánta memoria se necesitará.
+
+d) Una variable semidinámica es aquella cuyo tamaño puede cambiar en tiempo de ejecución, 
+    pero su vida útil está restringida a un ámbito específico.

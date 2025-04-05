@@ -1,0 +1,24 @@
+a) Una variable local son todas las referencias que se han creado dentro 
+    del programa o subprogramas. En cambio, las variables globales son
+    todas las referencias creadas en el programa principal.
+
+b) Sí, una variable local puede ser estática respecto de su l-valor si su dirección de 
+    memoria no cambia durante la ejecución del programa. Un ejemplo en C sería:
+
+    void funcion() {
+        static int x = 10; // Variable local con almacenamiento estático
+        printf("%d\n", x);
+        x++;
+    }
+
+c) Sí, en muchos lenguajes de programación, como C y Java, las variables globales tienen 
+    almacenamiento estático por defecto. Esto significa que su dirección de memoria se 
+    asigna en tiempo de carga del programa y se mantiene constante durante toda la 
+    ejecución. Sin embargo, en ciertos contextos (como en algunos entornos dinámicos o 
+    lenguajes con modelos de memoria más flexibles), podría haber formas de redefinir o 
+    modificar la ubicación de una variable global.
+
+d) Una variable estática respecto de su l-valor mantiene su dirección de memoria fija, 
+    pero su contenido puede cambiar. Una constante, en cambio, no solo tiene una dirección
+    fija sino que su valor no puede modificarse después de su inicialización.
+
