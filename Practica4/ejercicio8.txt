@@ -1,0 +1,19 @@
+b) Rango de mi puntero, h, i -> de la linea 6 a 15.
+
+b) Rango de mi puntero -> linea 6 a 15.
+    Rango de la variable i: linea 6 a 15.
+    Rango de la variable h: linea 6 a 15.
+
+c) No, no ocurre un error por que la asignacion de la variable h se realiza antes de que
+    se le haga dispose a la variable mipuntero, por lo que a (h) se le asigno el valor
+    de mipuntero correctamente.
+
+d) Si, este error se dedbe a que la variable mipuntero ya fue desalocada de la memoria
+    cuando se ejecuto la instruccion dispose(mipuntero).
+
+e) La entidad que se crea es la celda dinamica que se crea con new(mipuntero). Su tiempo
+    de vida es desde la linea 6 a 15 pero su alcance es desded que se realiza el new, 
+    linea 9, hasta que se realiza el dispose, linea 12.
+
+f) mipuntero -> dinamica.
+    i, h -> estatica.

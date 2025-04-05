@@ -1,0 +1,48 @@
+a)
+
+#include <stdlib.h>
+
+int* crear() {
+    int* ptr = malloc(sizeof(int)); // memoria dinámica
+    *ptr = 10;
+    return ptr;  // el puntero sobrevive fuera de la función
+}
+
+int main() {
+    int* numero = crear();  // 'ptr' ya no tiene alcance, pero sigue existiendo
+    // uso de *numero aún válido
+    free(numero); // liberar memoria
+    return 0;
+}
+
+Explicacion: ptr solo tiene alcance dentro de crear, pero el contenido 
+    apuntado por ptr (la memoria reservada con malloc) vive más allá de 
+    esa función.
+
+
+b) 
+
+int* obtener() {
+    int x = 5;
+    return &x;  // ¡ERROR! x muere al salir de la función
+}
+
+int main() {
+    int* p = obtener();  // 'p' tiene alcance, pero el valor apuntado ya no 
+    existe // usar *p da comportamiento indefinido
+    return 0;
+}
+
+Explicacion: p tiene alcance en main, pero apunta a una dirección inválida
+    porque x ya fue destruido.
+
+
+c)
+
+void ejemplo() {
+    int x = 20;  // x vive y es accesible solo dentro de esta función
+    // x tiene alcance y vida dentro de 'ejemplo'
+}
+
+Explicacion: x solo existe mientras se ejecuta ejemplo, y también solo es 
+    accesible dentro de ella.

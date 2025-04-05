@@ -1,0 +1,7 @@
+Si, se puede asegurarlo. En los tres lenguajes, el tiempo de vida de una variable declarada
+    dentro de un procedimiento se limita a ese procedimiento, lo que se llama duracion
+    automatica. Es decir, se crea y se destruye al finalizar el procedimiento. Por su lado, 
+    el alcance funciona de la mano con el tiempo de vida, al crearse dentro del bloque y 
+    perdurar en el mismo, su alcance va a ser solo el bloque donde fueron definidas. En C 
+    existe una excepcion que son las variables static, las cuales van a existir durante toda 
+    la ejecucion del programa porque poseen duracion estatica.

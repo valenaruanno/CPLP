@@ -1,0 +1,9 @@
+6) En cuanto a alocacion de memoria llegaria a tener el mismo comportamiento 
+    ya que las variables static en C se almacenan siempre en la memoria
+    de datos aunque este declarada dentro de una funcion. 
+
+
+7) Todos los identificadores son globales excepto los declarados dentro
+    de la funcion getEdad() en la clase Persona, que son identificadores
+    locales al metodo.
+    

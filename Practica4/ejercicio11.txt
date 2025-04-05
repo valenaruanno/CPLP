@@ -1,0 +1,10 @@
+a)
+    I- Falso.
+    II- Falso.
+    III- Falso.
+    IV- Verdadero.
+
+b) Un tipo de dato es una categoría que le dice al compilador o intérprete:
+    - Qué tipo de valores puede tener la variable (por ejemplo: números, texto, booleanos, etc.)
+    - Cuánto espacio ocupará en memoria.
+    - Qué operaciones se pueden aplicar sobre esa variable.
