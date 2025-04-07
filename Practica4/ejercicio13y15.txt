@@ -1,0 +1,9 @@
+13) Ninguna de las opciones es correcta. Estas propiedades están definidas por el contexto de 
+    declaración, palabras clave usadas, tipo de datos asignado, y la estructura del código, 
+    no por el nombre que se le asigne.
+
+15) 
+    Var -> Declara una variable de funcion o global, rededclarable y reasignable.
+    Let -> Declara una variable de bloque que puede cambiar.
+    Const -> Declara una constante de bloque, es decir, una referencia que no cambiara.
+    Sin nada -> Crea implicitamente una variable global.
