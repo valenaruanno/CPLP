@@ -1,13 +1,11 @@
 a) Constantes numéricas:
-    - Son valores literales que el compilador maneja directamente.
-    - No tienen una dirección de memoria específica asignada.
-    - Se usan en expresiones y cálculos sin necesidad de ocupar espacio en la memoria.
+    - Se definen en compilacion.
+    - No definen tipo -> es automatica.
 
    Constantes comunes:
-    - Son aquellas que tienen un valor fijo pero requieren espacio en memoria.
-    - Se comportan como variables, excepto que su valor no puede cambiar después de la 
-        inicialización.
+    - Son aquellas que definen el tipo.
+    - Se definen en ejecucion -> es automatica  .  
 
-b)  H: constant Float:= 3,5; -> Su ligadura se realiza en compilacion.
+b)  H: constant Float:= 3,5; -> Su ligadura se realiza en ejecucion.
     I: constant:= 2;         -> Su ligadura se realiza en compilacion.
-    K: constant float:= H*I; -> Su ligadura se realiza en compilacion. 
+    K: constant float:= H*I; -> Su ligadura se realiza en ejecucion. 

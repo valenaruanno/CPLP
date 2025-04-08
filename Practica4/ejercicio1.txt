@@ -1,15 +1,15 @@
 a) Variable a:
     - Nombre: a.
-    - Alcance: desde la linea 3 hasta la linea 16.
+    - Alcance: desde la linea 4 hasta la linea 16.
     - Tipo: integer.
     - L-valor: automatica.
-    - R-valor:
+    - R-valor: basura.
 
 b) Variable linea 4 = p.
     - Nombre: p.
-    - Alcance: desde la linea 4 hasta la 16.
+    - Alcance: desde la linea 5 hasta la 16.
     - Tipo: puntero.
     - L-valor: dinamica.
-    - R-valor:
+    - R-valor: nil.
 
     Esta variable tiene la direccion de memoria de la variable i. 
