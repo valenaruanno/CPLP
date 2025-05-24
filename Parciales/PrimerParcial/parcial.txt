@@ -1,0 +1,30 @@
+G = (N, T, S, P)
+
+N = {<for>, <valorInicial>, <condicion>, <factorIncremento> <sentencia> 
+    <tipo> <id> <numero> <exp> <termino>  <letra> <simbolo> ..}
+
+T = {"for", "(", ")", "{", "}", ";", 0..9, "a".."Z", ..}
+
+S = <for>
+
+P = {
+    <for> ::= "for" "("[<valorInicial>] ";" [<condicion>] ";" [<incremento>]")"
+        ["{"] {<sentencia>}* ["}"]
+
+    <valorInicial> ::= [<tipo>] <id> "=" (<numero>|<id> | <exp>) {"," [<tipo>] <id> "=" (<numero>|<id> | <exp>)}*
+    <tipo>::= (<int> | <char> | <long> | ..)
+    <id> ::= ("$" | "_" | <letra>) {<letra> | <numero> | <simbolo>}*
+    <numero> ::= {<digito>}+
+    <exp> ::= <termino> {("+" | "-" | "*" | "/") <termino>}*
+    <termino> ::= (<id> | <numero>)
+    <digito> ::= (0 | .. | 9)
+    <letra> ::= ("a" | .. | "z" | "A" | .. | "Z")
+    <simbolo>::= ("$" | "_")
+
+    <condicion> ::= (<numero> | <id>) <operadores> (<numero> | <id> | <funcion>)
+    <operadores> ::= ("<" | ">" | "<=" | ">=" | ..)
+
+    <incremento> ::= (<id>"++" | <id>"--" | "--"<id> | "++"<id> | <id> "=" <id>"+ 1" | ..)
+  
+    <sentencia> ::= {(<exp> | <for> | <if> | <switch> | <while> | ..)}+
+}

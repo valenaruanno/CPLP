@@ -1,0 +1,35 @@
+G = (N, T, S, P)
+
+N = {<exp>, <body>, <case>, <operacion>, <term>, <id>, <secuencia>, <simbolo>, <letra>, <numero>
+<letra>, <numero>, <dig>, <label>, <cadena>, }
+
+T = {"switch", "(", ")" "{", "default", ":", "}", "case", "$", "", 0..9, a..z, A..Z}
+
+S = <switch>
+ 
+P = {
+        <switch> ::= "switch" "(" <exp> ")" "{"
+        <case>
+        "default"":"
+                <body>
+    "}"
+        <case> ::= "case" <label>":" 
+            <body> "break"";" | "case" <label>":" 
+                                                                <body> "break"";" <case>
+
+
+        <exp> ::= <term> | <operacion>
+        <operacion> ::= <term> | <term><operando><operacion>
+        <term> ::= <id> | <num>
+
+        <id> ::= <letra> | <simbolo> | <letra><secuencia> | <simbolo><secuencia> 
+        <secuencia> ::= <letra> | <simbolo> | <dig> | <letra><secuencia> | <simbolo><secuencia> | <dig><secuencia>
+        <simbolo> ::= "$" | ""
+        <letra> ::= a | .. | z | A | .. | Z
+        <numero> ::= <dig> | <dig><numero>
+        <dig> ::=  0 | .. | 9
+
+        <body> ::= <if> | <while> | <for> | <case> | <sentenciaSimple> | ..
+        <label> ::= <id> | <cadena> | <numero>
+        <cadena> ::= <letra> | <letra><cadena> 
+}

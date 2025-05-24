@@ -1,0 +1,20 @@
+La utilidad del registro de activacion es almacenar la informacion necesaria para controlar 
+    la ejecucion de una funcion o procedimiento durante su tiempo de vida.
+
+Punto de retorno -> tendra la direccion donde se debera reanudar la ejecucion luego de ejecutar
+    la funcion/ procedimiento.
+
+Enlace estatico -> apunta al registro de activacion de la unidad que contiene a la unidad 
+    actual.
+
+Enlace dinamico -> contiene un puntero a la direccion base del registro de activacion de la 
+    rutina llamadora. 
+
+Variables -> variables locales a la rutina.
+
+Parametros -> contiene los parametros pasados a la rutina.
+
+Procedimientos -> contiene los procedimientos contenidos por la rutina.
+
+valor de retorno -> contendra el valor de retorno de la/s rutina/s llamadas durante el tiempo
+    de vida del registro de activacion.
