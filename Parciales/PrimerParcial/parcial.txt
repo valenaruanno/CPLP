@@ -1,30 +1,35 @@
 G = (N, T, S, P)
 
-N = {<for>, <valorInicial>, <condicion>, <factorIncremento> <sentencia> 
-    <tipo> <id> <numero> <exp> <termino>  <letra> <simbolo> ..}
+N = {<exp>, <body>, <case>, <operacion>, <term>, <id>, <secuencia>, <simbolo>, <letra>, <numero>
+<letra>, <numero>, <dig>, <label>, <cadena>, }
 
-T = {"for", "(", ")", "{", "}", ";", 0..9, "a".."Z", ..}
+T = {"switch", "(", ")" "{", "default", ":", "}", "case", "$", "", 0..9, a..z, A..Z}
 
-S = <for>
-
+S = <switch>
+ 
 P = {
-    <for> ::= "for" "("[<valorInicial>] ";" [<condicion>] ";" [<incremento>]")"
-        ["{"] {<sentencia>}* ["}"]
+        <switch> ::= "switch" "(" <exp> ")" "{"
+        <case>
+        "default"":"
+                <body>
+    "}"
+        <case> ::= "case" <label>":" 
+            <body> "break"";" | "case" <label>":" 
+                                                                <body> "break"";" <case>
 
-    <valorInicial> ::= [<tipo>] <id> "=" (<numero>|<id> | <exp>) {"," [<tipo>] <id> "=" (<numero>|<id> | <exp>)}*
-    <tipo>::= (<int> | <char> | <long> | ..)
-    <id> ::= ("$" | "_" | <letra>) {<letra> | <numero> | <simbolo>}*
-    <numero> ::= {<digito>}+
-    <exp> ::= <termino> {("+" | "-" | "*" | "/") <termino>}*
-    <termino> ::= (<id> | <numero>)
-    <digito> ::= (0 | .. | 9)
-    <letra> ::= ("a" | .. | "z" | "A" | .. | "Z")
-    <simbolo>::= ("$" | "_")
 
-    <condicion> ::= (<numero> | <id>) <operadores> (<numero> | <id> | <funcion>)
-    <operadores> ::= ("<" | ">" | "<=" | ">=" | ..)
+        <exp> ::= <term> | <operacion>
+        <operacion> ::= <term> | <term><operando><operacion>
+        <term> ::= <id> | <num>
 
-    <incremento> ::= (<id>"++" | <id>"--" | "--"<id> | "++"<id> | <id> "=" <id>"+ 1" | ..)
-  
-    <sentencia> ::= {(<exp> | <for> | <if> | <switch> | <while> | ..)}+
+        <id> ::= <letra> | <simbolo> | <letra><secuencia> | <simbolo><secuencia> 
+        <secuencia> ::= <letra> | <simbolo> | <dig> | <letra><secuencia> | <simbolo><secuencia> | <dig><secuencia>
+        <simbolo> ::= "$" | ""
+        <letra> ::= a | .. | z | A | .. | Z
+        <numero> ::= <dig> | <dig><numero>
+        <dig> ::=  0 | .. | 9
+
+        <body> ::= <if> | <while> | <for> | <case> | <sentenciaSimple> | ..
+        <label> ::= <id> | <cadena> | <numero>
+        <cadena> ::= <letra> | <letra><cadena> 
 }
